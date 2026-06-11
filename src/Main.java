@@ -12,6 +12,6 @@ public class Main {
         FlatMacLightLaf.setup();
          LoginFrame loginFrame = new LoginFrame();
          loginFrame.setVisible(true);
-        System.out.println("Expense Splitter Application Starting...");
+        System.out.println("Expense Splitter Application Starting.....");
     }
 }
