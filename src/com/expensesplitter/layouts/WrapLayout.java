@@ -7,6 +7,7 @@ public class WrapLayout extends FlowLayout {
 
     public WrapLayout() {
         super();
+        System.out.println(" ");
     }
 
     public WrapLayout(int align) {
