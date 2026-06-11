@@ -12,14 +12,16 @@ public class GroupDAO {
     public boolean createGroup(Group group) {
         String sql = "INSERT INTO groups_table (name, created_by) VALUES (?, ?)";
         try (Connection conn = DatabaseConnection.getConnection();
+             // Statement.RETURN_GENERATED_KEYS lets us get the ID of the newly created group
              PreparedStatement ps = conn.prepareStatement(sql, Statement.RETURN_GENERATED_KEYS)) {
 
             ps.setString(1, group.getName());
             ps.setInt(2, group.getCreatedBy());
-
+// If the group is successfully inserted into the database
             if (ps.executeUpdate() > 0) {
                 try (ResultSet keys = ps.getGeneratedKeys()) {
                     if (keys.next()) {
+                        // Get the new group's ID and automatically add the creator as a member
                         return addMember(keys.getInt(1), group.getCreatedBy());
                     }
                 }
@@ -30,7 +32,7 @@ public class GroupDAO {
             return false;
         }
     }
-
+//Checks if a user is already in a group with the exact same name
     public boolean groupNameExists(String name, int userId) {
         String sql = "SELECT COUNT(*) FROM groups_table g " +
                 "INNER JOIN group_members gm ON g.id = gm.group_id " +
@@ -49,6 +51,7 @@ public class GroupDAO {
         }
     }
 
+    //Checks if a user has another group with the same name, excluding a specific group ID.
     public boolean groupNameExistsExcluding(String name, int userId, int excludeGroupId) {
         String sql = "SELECT COUNT(*) FROM groups_table g " +
                 "INNER JOIN group_members gm ON g.id = gm.group_id " +
@@ -95,7 +98,7 @@ public class GroupDAO {
             return false;
         }
     }
-
+//Removes a user from a group.
     public boolean removeMember(int groupId, int userId) {
         String sql = "DELETE FROM group_members WHERE group_id = ? AND user_id = ?";
         try (Connection conn = DatabaseConnection.getConnection();
