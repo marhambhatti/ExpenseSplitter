@@ -13,6 +13,7 @@ import java.util.HexFormat;
 
 public class UserDAO {
 
+    // User Account
     private static String sha256(String input) {
         try {
             MessageDigest md = MessageDigest.getInstance("SHA-256");
