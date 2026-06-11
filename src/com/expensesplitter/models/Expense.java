@@ -2,7 +2,7 @@
 package com.expensesplitter.models;
 
 import java.sql.Date;
-
+// Expense Model
 public class Expense {
 
     private int    id;
