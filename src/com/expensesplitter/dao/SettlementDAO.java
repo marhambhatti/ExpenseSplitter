@@ -22,7 +22,7 @@ public class SettlementDAO {
         String sql = "INSERT INTO settlements (group_id, payer_id, payee_id, amount, date) VALUES (?, ?, ?, ?, ?)";
         try (Connection conn = DatabaseConnection.getConnection();
              PreparedStatement ps = conn.prepareStatement(sql)) {
-
+            System.out.println(" ");
             ps.setInt(1, settlement.getGroupId());
             ps.setInt(2, settlement.getPayerId());
             ps.setInt(3, settlement.getPayeeId());
