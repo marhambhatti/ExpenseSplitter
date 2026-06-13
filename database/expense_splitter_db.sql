@@ -1,4 +1,3 @@
--- FIXED: Aligned schema with application models and DAO column names
 CREATE DATABASE IF NOT EXISTS expense_splitter_db;
 USE expense_splitter_db;
 
