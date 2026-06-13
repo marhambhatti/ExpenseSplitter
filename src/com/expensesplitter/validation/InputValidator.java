@@ -1,4 +1,3 @@
-// FIXED: Updated email regex and added isPositiveDouble per spec
 package com.expensesplitter.validation;
 
 // Input Validation
