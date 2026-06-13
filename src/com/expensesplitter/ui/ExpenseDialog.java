@@ -1,5 +1,5 @@
 package com.expensesplitter.ui;
-
+// Expense Dialog
 import com.expensesplitter.util.Session;
 import com.expensesplitter.dao.ExpenseDAO;
 import com.expensesplitter.dao.GroupDAO;

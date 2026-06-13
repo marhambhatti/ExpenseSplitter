@@ -1,4 +1,3 @@
-// REDESIGNED: Premium Deep Navy + Emerald + Warm Slate color system
 package com.expensesplitter.ui;
 
 import javax.swing.*;
@@ -6,7 +5,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
 public final class UiStyles {
-
+// UI COLOR STYLE HARDCODED
     private UiStyles() {}
 
     // ── COLOR PALETTE ─────────────────────────────────────────────────

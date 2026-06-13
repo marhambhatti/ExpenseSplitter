@@ -20,7 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MainFrame extends JFrame {
-
+// Main Frame
     public enum Page {
         DASHBOARD, GROUPS, EXPENSES, LEDGER_DETAILS, SETTLEMENTS, SEARCH_FILTER, SETTINGS
     }

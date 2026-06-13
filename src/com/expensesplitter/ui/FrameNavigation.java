@@ -1,11 +1,10 @@
-// FIXED: Shared navigation helpers for sidebar links and logout
 package com.expensesplitter.ui;
 
 import com.expensesplitter.util.Session;
 
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
-
+// Frame Navigation
 public final class FrameNavigation {
 
     private FrameNavigation() {}

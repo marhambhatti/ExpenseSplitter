@@ -18,7 +18,7 @@ import java.awt.event.MouseEvent;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+// Expense Pannel
 public class ExpensesPanel extends JPanel {
 
     private JPanel expensesPanel;

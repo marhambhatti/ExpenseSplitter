@@ -23,6 +23,8 @@ import java.time.LocalDate;
 import java.util.*;
 import java.util.List;
 
+// Ledger Details
+
 public class LedgerDetailsFrame extends JPanel {
 
     private JTable            ledgerTable;

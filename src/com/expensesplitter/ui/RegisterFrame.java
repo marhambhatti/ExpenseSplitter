@@ -11,7 +11,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.BufferedImage;
-
+// Register Frame
 public class RegisterFrame extends JFrame {
 
     private static final int CARD_W = 390;

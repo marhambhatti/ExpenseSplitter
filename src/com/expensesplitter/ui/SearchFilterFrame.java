@@ -24,7 +24,7 @@ import java.util.List;
 import java.util.Map;
 
 public class SearchFilterFrame extends JPanel {
-
+// Search Frame
     private JTextField txtSearch;
     private JComboBox<String> cmbGroup;
     private JComboBox<String> cmbCategory;

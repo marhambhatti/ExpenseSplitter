@@ -21,7 +21,7 @@ import java.util.*;
 import java.util.List;
 
 public class SettlementFrame extends JPanel {
-
+// Settlement Frame
     private JPanel settlementsPanel;
     private JLabel totalOwedLabel;
     private JLabel totalOwingLabel;
