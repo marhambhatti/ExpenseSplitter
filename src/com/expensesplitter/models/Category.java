@@ -1,6 +1,6 @@
-// FIXED: Renamed fields to id and name to match DB schema and spec
 package com.expensesplitter.models;
 
+// Category
 public class Category {
 
     public static final String[] ALL_NAMES = {

@@ -1,6 +1,5 @@
-// FIXED: Renamed fields to id and name to match DB schema and spec
 package com.expensesplitter.models;
-
+// Group Model
 public class Group {
 
     private int    id;

@@ -17,7 +17,7 @@ public class Expense {
     public Expense() {
         this.splitType = "EQUAL";
     }
-
+// constructor
     public Expense(int id, int groupId, String description, double amount,
                    int paidBy, int categoryId, String splitType, Date date) {
         this.id = id;

@@ -1,6 +1,5 @@
-// FIXED: Renamed receiverId/settledOn to payeeId/date to match DB schema and spec
 package com.expensesplitter.models;
-
+// Settlement Model
 import java.sql.Date;
 
 public class Settlement {

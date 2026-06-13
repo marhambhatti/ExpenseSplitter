@@ -1,7 +1,7 @@
 package com.expensesplitter.models;
 
 import java.util.Objects;
-
+// USER MODEL
 public class User {
 
     private int    id;
