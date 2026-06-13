@@ -18,6 +18,7 @@ import org.kordamp.ikonli.Ikon;
 import org.kordamp.ikonli.fontawesome5.FontAwesomeSolid;
 import org.kordamp.ikonli.swing.FontIcon;
 
+// Side Bar
 public class SideBar extends JPanel {
 
     private JPanel         menuItemsContainer;
