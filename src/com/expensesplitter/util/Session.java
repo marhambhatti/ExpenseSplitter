@@ -1,4 +1,3 @@
-// FIXED: Added session holder for logged-in user across UI frames
 package com.expensesplitter.util;
 
 import com.expensesplitter.models.User;
