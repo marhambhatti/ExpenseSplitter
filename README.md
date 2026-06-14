@@ -15,9 +15,17 @@
 
 ## 📋 Project Description
 
-Expense Splitter is a desktop application built with **Java Swing** and **MySQL** that allows groups of people to track shared expenses and settle balances fairly. Whether you're managing household bills with flatmates, splitting costs on a team outing, or tracking travel expenses, Expense Splitter gives you a clean, organized view of who owes what.
+Expense Splitter is a desktop application built with 
+**Java Swing** and **MySQL** 
+that allows groups of people to track shared expenses and settle balances fairly. 
+Whether you're managing household bills with flatmates, splitting costs on a team 
+outing, or tracking travel expenses, Expense Splitter gives you a clean, 
+organized view of who owes what.
 
-The application follows a clean MVC architecture using the **Strategy design pattern** for flexible expense splitting (Equal, Custom, Percentage), the **DAO pattern** for database access, and **FlatLaf** for a modern UI look and feel.
+The application follows a clean MVC architecture using the
+**Strategy design pattern** for flexible expense splitting (Equal, Custom, Percentage),
+the **DAO pattern** for database access, and **FlatLaf**
+for a modern UI look and feel.
 
 ---
 
